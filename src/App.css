@@ -39,7 +39,7 @@ button:hover{
 
 .image-container{
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+  grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
   gap: 18px;
   padding: 20px;
 }
@@ -55,7 +55,7 @@ button:hover{
 
 .image-card img{
   width: 100%;
-  height: 220px;
+  height: 210px;
   object-fit: cover;
   transition: .4s ease;
 }
@@ -64,6 +64,7 @@ button:hover{
 .image-card:hover img{
   transform: scale(1.08);
   filter: brightness(.8);
+  filter: blur(0.5px);
 }
 
 .overlay{
