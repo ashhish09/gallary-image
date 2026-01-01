@@ -64,7 +64,7 @@ button:hover{
 .image-card:hover img{
   transform: scale(1.08);
   filter: brightness(.8);
-  filter: blur(0.5px);
+  filter: blur(0.3px);
 }
 
 .overlay{
